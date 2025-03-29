@@ -19,7 +19,7 @@ const _dirname = path.resolve();
 
 app.use(
   cors({
-    origin: ["http://localhost:3000", "http://localhost:3001"],
+    origin: ["https://taskify-nexus.onrender.com"],
     methods: ["GET", "POST", "DELETE", "PUT"],
     credentials: true,
     allowedHeaders: ["Content-Type", "Authorization"],
