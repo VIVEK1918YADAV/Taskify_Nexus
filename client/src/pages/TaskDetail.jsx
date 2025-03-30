@@ -80,11 +80,9 @@ const TASKTYPEICON = {
 };
 
 const act_types = [
-  "started",
   "Completed",
   "In Progress",
-  "Bug",
-  "Assigned",
+  "TO DO",
 ];
 
 const Activities = ({ activity, id, refetch }) => {
