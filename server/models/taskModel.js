@@ -25,7 +25,7 @@ const taskSchema = new Schema(
             "in progress",
             "bug",
             "completed",
-            "to do",
+            "commented",
           ],
         },
         activity: String,

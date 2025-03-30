@@ -82,7 +82,6 @@ const TASKTYPEICON = {
 const act_types = [
   "Completed",
   "In Progress",
-  "TO DO",
 ];
 
 const Activities = ({ activity, id, refetch }) => {
